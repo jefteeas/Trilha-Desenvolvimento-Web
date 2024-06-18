@@ -1,0 +1,36 @@
+/*Aspectos gerais */
+body {
+    width: 960px; 
+    margin: 0 auto; 
+    font-family: sans-serif;
+}
+p {
+    text-indent: 1em; 
+}
+
+/*Títulos */
+h1, h2, h3 {
+    text-align: center; 
+}
+h1 {
+    font-size: 1.8rem; 
+}
+h2 {
+    font-size: 1.4rem; 
+}
+h3 {
+    font-size: 1.2rem;
+}
+
+/*Seções de resumo e principal */
+.intro {
+    text-align: center;
+}
+.main {
+    line-height: 1.5;
+}
+
+/* 4. Abreviaturas */
+abbr {
+    font-variant: small-caps;
+}

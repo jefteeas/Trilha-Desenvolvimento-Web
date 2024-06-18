@@ -1,0 +1,16 @@
+Implemente um código CSS que irá customizar os parágrafos da seguinte forma: 
+
+Parágrafos em geral terão a fonte Arial.
+
+Parágrafos declarados logo após h1 ficarão em negrito.
+
+
+
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1 + p {
+    font-weight: bold;
+}

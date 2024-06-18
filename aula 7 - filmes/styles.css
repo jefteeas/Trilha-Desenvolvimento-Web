@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Type Machine';
+    src: url('fonts/TypeMachine.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #c5c3dd, rgb(120, 15, 134));
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Type Machine', Arial, sans-serif;
+    color: #fff;
+    font-size: 50px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.filme {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filme img {
+    width: 100%;
+    height: auto;
+}
+
+.filme p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333; 
+}

@@ -1,0 +1,19 @@
+Implemente um código CSS para estilizar a classe '.destaque' da seguinte forma:
+Por padrão, utilizará a fonte Arial.
+Se atribuída a um parágrafo, ficará em negrito.
+Se atribuída a um <strong> , ficará em vermelho.
+
+
+
+
+.destaque {
+    font-family: Arial, sans-serif;
+}
+
+.destaque p {
+    font-weight: bold; 
+}
+
+.destaque strong {
+    color: red; 
+}

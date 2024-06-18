@@ -1,0 +1,13 @@
+Implemente um código CSS para mudar as cores dos links de uma página. A cor padrão do link deverá ser vermelha (red) e deverá mudar para limão (lemon) quando sobreposta pelo mouse.
+
+
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: lemon;
+}
